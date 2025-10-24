@@ -15,6 +15,6 @@ strings.unshift("x"); //O(n)
 // 2 is The zero-based location in the array from which to start removing elements.
 // 0 is The number of elements to remove.
 // 'alien' is The Elements to insert into the array in place of the deleted elements.
-strings.splice(2, 0, "alien");
+strings.splice(2, 0, "alien"); //O(n)
 
 console.log(strings);
